@@ -1,4 +1,4 @@
-![Insígnia Oracle Next One](../../../one.png)
+![Insígnia Oracle Next One](.github/one.png)
 
 # Sobre o desafio
 
