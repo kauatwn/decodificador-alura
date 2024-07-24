@@ -20,7 +20,7 @@ Desafio proposto pelo programa ONE que criptografa e descriptografa um texto. A 
 - Node.js
 - Visual Studio Code
 
-## Instalação
+### Instalação
 
 1. Clone o repositório:
 
