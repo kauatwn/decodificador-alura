@@ -23,12 +23,16 @@ Desafio proposto pelo programa ONE que criptografa e descriptografa um texto. A 
 ### Instalação
 
 1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/kauatwn/decodificador-alura.git
-   ```
+    ```bash
+    git clone https://github.com/kauatwn/decodificador-alura.git
+    ```
 
 2. Instale a dependência do SASS para utilizar o extensor do CSS:
-   ```bash
-   npm install
-   ```
+
+    ```bash
+    npm install
+    ```
+
+3. Instale a extensão **Live Sass Compiler** oferecida por Glenn Marks
+
+4. Instale a extensão **Live Server** oferecida por Ritwick Dey
