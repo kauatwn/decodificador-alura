@@ -1,28 +1,34 @@
-![Insígnia Oracle Next One](.github/one.png)
+## Challenge Decodificador
 
-# Sobre o desafio
+<p align="center">
+  <img src="./images/one.png" alt="Insígnia Oracle Next One" width="300">
+</p>
 
-Aplicação desenvolvida em HTML, SCSS e JavaScript que criptografa e descriptografa textos.
+## Descrição
 
-### Pré-requisitos
+Desafio proposto pelo programa ONE que criptografa e descriptografa um texto. A aplicação foi desenvolvida em HTML, SCSS e JavaScript e utiliza as seguintes chaves de criptografia:
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e uma IDE como o [Visual Studio Code](https://code.visualstudio.com/), por exemplo.
+- "a" é convertido para "ai"
+- "e" é convertido para "enter"
+- "i" é convertido para "imes"
+- "o" é convertido para "ober"
+- "u" é convertido para "ufat"
+
+### Requisitos
+
+- Git
+- Node.js
+- Visual Studio Code
 
 ## Instalação
 
-Clone o repositório:
+1. Clone o repositório:
 
-```bash
-git clone https://github.com/kauatwn/challenge-alura-one.git
-```
+   ```bash
+   git clone https://github.com/kauatwn/decodificador-alura.git
+   ```
 
-Instale o SASS para utilizar o extensor do CSS:
-
-```bash
-npm i -g sass
-```
-
-No Visual Studio Code, instale a extensão "Live Sass Compiler" oferecida pelo Glenn Marks. Após a instalação, no canto inferior direito, você verá a opção `Watch Sass`. Basta clicar nela, e o código SCSS será compilado automaticamente para CSS sempre que você salvar seu arquivo SCSS.
-
-Se preferir, você também pode executar o comando `sass ./styles/styles.scss ./styles/styles.css` no terminal para compilar manualmente seus arquivos SCSS.
+2. Instale a dependência do SASS para utilizar o extensor do CSS:
+   ```bash
+   npm install
+   ```
