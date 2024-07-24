@@ -1,66 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Decodificador | Challenge Oracle + Alura</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <main>
-      <header>
-        <img
-          class="logo-alura"
-          src="assets/images/logo-alura.svg"
-          alt="Logotipo da Alura"
-        />
-      </header>
-      <section class="left-container">
-        <textarea
-          placeholder="Digite seu texto"
-          name="decrypted-text"
-          rows="1"
-          cols="10"
-        ></textarea>
-        <div class="encryption-and-decryption-container">
-          <div class="exclamation-container">
-            <img
-              src="assets/images/exclamation-circle.svg"
-              alt="Círculo com símbolo de exclamação"
-            />
-            <p class="exclamation-text">
-              Apenas letras minúsculas e sem acento.
-            </p>
-          </div>
-          <div class="btn-container">
-            <button class="btn-encrypt">Criptografar</button>
-            <button class="btn-decrypt">Descriptografar</button>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Decodificador | Challenge Oracle + Alura</title>
+  <link rel="stylesheet" href="src/styles/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <header>
+      <img class="logo-alura" src="src/assets/images/logo-alura.svg" alt="Logotipo da Alura" />
+    </header>
+    <section class="left-container">
+      <textarea placeholder="Digite seu texto" name="decrypted-text" rows="1" cols="10"></textarea>
+      <div class="encryption-and-decryption-container">
+        <div class="exclamation-container">
+          <img src="src/assets/images/exclamation-circle.svg" alt="Círculo com símbolo de exclamação" />
+          <p class="exclamation-text">
+            Apenas letras minúsculas e sem acento.
+          </p>
         </div>
-      </section>
-      <section class="right-container">
-        <div class="warning-container">
-          <img
-            src="assets/images/character.svg"
-            alt="Personagem com uma lupa"
-            class="character"
-          />
-          <div class="warning-message">
-            <h1>Nenhuma mensagem encontrada</h1>
-            <p>
-              Digite um texto que você deseja criptografar ou descriptografar.
-            </p>
-          </div>
+        <div class="btn-container">
+          <button class="btn-encrypt">Criptografar</button>
+          <button class="btn-decrypt">Descriptografar</button>
         </div>
-      </section>
-    </main>
-    <script src="js/script.js"></script>
-  </body>
+      </div>
+    </section>
+    <section class="right-container">
+      <div class="warning-container">
+        <img src="src/assets/images/character.svg" alt="Personagem com uma lupa" class="character" />
+        <div class="warning-message">
+          <h1>Nenhuma mensagem encontrada</h1>
+          <p>
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="src/js/script.js"></script>
+</body>
+
 </html>
