@@ -43,3 +43,10 @@ Desafio proposto pelo programa ONE que criptografa e descriptografa um texto. A 
 3. Instale a extensão **Live Sass Compiler** oferecida por Glenn Marks.
 
 4. Instale a extensão **Live Server** oferecida por Ritwick Dey.
+
+5. No Visual Studio Code, clique nos botões `Watch Sass` e `Go Live` no canto inferior direito.
+
+### Explicações Adicionais
+
+- **Watch Sass**: Compila automaticamente o SCSS e aplica as estilizações sempre que houver alterações nos arquivos SCSS.
+- **Go Live**: Inicia um servidor local e abre a aplicação no navegador, permitindo ver as alterações em tempo real.
