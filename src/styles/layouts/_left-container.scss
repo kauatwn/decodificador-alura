@@ -1,0 +1,225 @@
+@use "../base/variables";
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  padding: 8rem 0 2rem 0;
+  gap: 4rem;
+
+  textarea {
+    width: 42.5rem;
+    height: 18rem;
+    color: variables.$dark-blue;
+    font-family: variables.$font-family;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    outline: none;
+  }
+
+  textarea::placeholder {
+    color: variables.$dark-blue;
+  }
+
+  .encryption-and-decryption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+
+    .exclamation-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 0.5rem;
+      width: auto;
+      height: auto;
+
+      img {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      p {
+        color: variables.$gray;
+        font-family: variables.$font-family;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.125rem;
+        opacity: 0.8;
+      }
+    }
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Tablet
+@media only screen and (min-width: variables.$tablet-max-width) and (max-width: variables.$desktop-max-width) {
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    padding: 0;
+    gap: 4rem;
+  }
+
+  textarea {
+    width: 43rem;
+    height: 18rem;
+    color: variables.$dark-blue;
+    font-family: variables.$font-family;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    outline: none;
+  }
+
+  textarea::placeholder {
+    color: variables.$dark-blue;
+  }
+
+  .encryption-and-decryption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    width: auto;
+    height: auto;
+
+    .exclamation-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+
+      img {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      p {
+        color: variables.$gray;
+        font-family: variables.$font-family;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.125rem;
+        opacity: 0.8;
+      }
+    }
+
+    .btn-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      width: 43rem;
+      height: auto;
+    }
+  }
+}
+
+// Mobile
+@media only screen and (min-width: variables.$phone-max-width) and (max-width: variables.$tablet-max-width) {
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    padding: 0;
+    gap: 4rem;
+
+    textarea {
+      width: 21.4375rem;
+      height: 39rem;
+      color: variables.$dark-blue;
+      font-family: variables.$font-family;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 3rem;
+      background-color: transparent;
+      resize: none;
+      border: none;
+      outline: none;
+    }
+
+    textarea::placeholder {
+      color: variables.$dark-blue;
+    }
+
+    .encryption-and-decryption-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 1rem;
+      width: auto;
+      height: auto;
+
+      .exclamation-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+        img {
+          width: 1rem;
+          height: 1rem;
+        }
+
+        p {
+          color: variables.$gray;
+          font-family: variables.$font-family;
+          font-size: 0.75rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.125rem;
+          opacity: 0.8;
+        }
+      }
+
+      .btn-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        width: 21.4375rem;
+        height: auto;
+      }
+    }
+  }
+}
