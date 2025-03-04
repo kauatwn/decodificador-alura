@@ -1,0 +1,75 @@
+@use "../base/variables";
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 2.5rem;
+  width: auto;
+  height: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+
+  .logo-alura {
+    width: 7.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+  }
+}
+
+// Tablet
+@media only screen and (min-width: variables.$tablet-max-width) and (max-width: variables.$desktop-max-width) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.59rem 2.5rem 2.5rem 2.5rem;
+    width: auto;
+    height: auto;
+    gap: 4rem;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+    .logo-alura {
+      width: 1.94285rem;
+      height: 3.16133rem;
+      flex-shrink: 0;
+    }
+  }
+}
+
+// Mobile
+@media only screen and (min-width: variables.$phone-max-width) and (max-width: variables.$tablet-max-width) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem 2.5rem 1rem;
+    width: auto;
+    height: auto;
+    gap: 5rem;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+    .logo-alura {
+      width: 1.94285rem;
+      height: 3.16133rem;
+      flex-shrink: 0;
+    }
+  }
+}
