@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "src/js/script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run sass",
+    "sass": "sass src/styles/styles.scss:src/styles/styles.css",
+    "sass:watch": "sass --watch src/styles/styles.scss:src/styles/styles.css"
   },
   "author": "Kauã Lima",
   "description": "Desafio proposto pelo programa ONE que criptografa e descriptografa um texto.",
   "devDependencies": {
-    "sass": "^1.77.8"
+    "sass": "^1.85.1"
   }
 }
